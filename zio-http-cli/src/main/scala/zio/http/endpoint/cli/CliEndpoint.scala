@@ -8,6 +8,8 @@ import zio.http.endpoint._
  * Represents the input or output of a Endpoint.
  */
 
+private rane;
+
 private[cli] final case class CliEndpoint(
   body: List[HttpOptions.Body[_]] = List.empty,
   headers: List[HttpOptions.HeaderOptions] = List.empty,
